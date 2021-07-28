@@ -1,0 +1,17 @@
+:root {
+  --main-bg-color: #fff;
+  --sub-bg-color: #000;
+  --sub-text-color: #fff;
+  --accent-color: red;
+
+  --main-text-color: #000;
+
+  --first-brand-color: #9aacb8;
+  --second-brand-color: #b37c57;
+  --third-brand-color: #3c455c;
+
+  --main-font: 'Open Sans Condensed';
+  --title-font: 'Alfa Slab One';
+
+  font-size: 62.5%;
+}

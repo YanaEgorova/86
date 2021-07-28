@@ -1,0 +1,19 @@
+.info__wrapper {
+  background-color: var(--third-brand-color);
+  background-image: url('../img/img1.png');
+  background-position: right;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+.info {
+  padding: 15rem;
+}
+.info .text, .info .sub-title {
+  color: var(--sub-text-color);
+  margin-bottom: 0;
+}
+.info .img {
+}
+@media screen and (min-width: 1024px) {
+ 
+}

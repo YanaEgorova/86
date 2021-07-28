@@ -1,0 +1,39 @@
+.about__wrapper {
+}
+.about  {
+  padding: 5rem 0;
+}
+.about .img {
+  margin-bottom: 0;
+}
+.about .text {
+  background-color: var(--second-brand-color);
+  margin-bottom: 0;
+  padding: 3rem;
+  position: relative;
+}
+.about .text::before {
+  display: block;
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: -1.9rem;
+  transform: translate(-50%, 0);
+  width: 0;
+  height: 0;
+  border-left: 1.5rem solid transparent;
+  border-right: 1.5rem solid transparent;
+  border-bottom: 2rem solid var(--second-brand-color);
+}
+@media screen and (min-width: 1024px) {
+   .about .list {
+     display: flex;
+   }
+   .about .img {
+    height: 23rem;
+    object-fit:cover;
+  }
+  .about .item {
+    width: 33%;
+  }
+}
